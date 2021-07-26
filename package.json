@@ -1,0 +1,28 @@
+{
+  "name": "with-tailwindcss",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
+    "@tailwindcss/ui": "^0.6.2",
+    "autoprefixer": "^10.0.4",
+    "next": "latest",
+    "next-firebase-auth": "^0.12.1",
+    "postcss": "^8.1.10",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-test-renderer": "^17.0.2",
+    "tailwindcss": "^2.1.2",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
