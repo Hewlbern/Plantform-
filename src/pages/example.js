@@ -37,9 +37,9 @@ export default function Example() {
       ContactLink: "https://moodmap.app",
     },
     {
-      ImageLink: "/static/example_photos/anthchoc.JPG",
-      Name: "Anthurium Chocolate",
-      Description: "Anthurium Chocolate",
+      ImageLink: "/static/example_photos/paintedlady.JPG",
+      Name: "Painted Lady",
+      Description: "Painted Lady",
       ContactLink: "https://moodmap.app",
     },
     {
@@ -124,7 +124,7 @@ export default function Example() {
           </p>
           </main>
           </div>
-          <div className="grid grid-cols-3 gap-4 flex justify-evenly">
+          <div className="grid xl:grid-cols-3 sm:grid grid-cols-1 gap-4 p-14 flex justify-evenly">
             {ExamplePlant.map((number) => (
               <Plant
               key={number}
